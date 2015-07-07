@@ -1,19 +1,19 @@
 {
-  "name": "seed-element",
-  "version": "1.0.0",
+  "name": "google-map-elevation",
+  "version": "0.0.1",
   "authors": [
-    "Anonymous <anonymous@example.com>"
+    "Pascal Aubort <pascal.aubort@gmail.com>"
   ],
-  "description": "An element providing a solution to no problem in particular.",
+  "description": "",
   "keywords": [
     "web-component",
     "web-components",
     "polymer",
     "seed"
   ],
-  "main": "seed-element.html",
-  "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "main": "google-map-elevation.html",
+  "license": "https://github.com/aubort/polymer-google-map-elevation/blob/master/LICENSE",
+  "homepage": "https://github.com/aubort/polymer-google-map-elevation",
   "ignore": [
     "/.*",
     "/test/",
