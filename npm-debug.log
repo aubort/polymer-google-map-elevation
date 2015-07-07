@@ -1,0 +1,138 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'polyserve' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose cache add [ 'polyserve', null ]
+5 verbose cache add name=undefined spec="polyserve" args=["polyserve",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'polyserve',
+6 verbose parsed url   path: 'polyserve',
+6 verbose parsed url   href: 'polyserve' }
+7 silly lockFile 002b2ef5-polyserve polyserve
+8 verbose lock polyserve /Users/aubort/.npm/002b2ef5-polyserve.lock
+9 silly lockFile 002b2ef5-polyserve polyserve
+10 silly lockFile 002b2ef5-polyserve polyserve
+11 verbose addNamed [ 'polyserve', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 1bfcb230-polyserve polyserve@
+14 verbose lock polyserve@ /Users/aubort/.npm/1bfcb230-polyserve.lock
+15 silly addNameRange { name: 'polyserve', range: '*', hasData: false }
+16 verbose request where is /polyserve
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 24899bbc3f4b189d
+19 verbose url raw /polyserve
+20 verbose url resolving [ 'https://registry.npmjs.org/', './polyserve' ]
+21 verbose url resolved https://registry.npmjs.org/polyserve
+22 verbose request where is https://registry.npmjs.org/polyserve
+23 info trying registry request attempt 1 at 14:53:23
+24 http GET https://registry.npmjs.org/polyserve
+25 http 200 https://registry.npmjs.org/polyserve
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"E5KOS3QWXXN3KO1I0XMPQLMIT"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '5357',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Tue, 07 Jul 2015 12:53:24 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-fra1247-FRA',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '1',
+26 silly registry.get     'x-timer': 'S1436273604.353127,VS0,VE182',
+26 silly registry.get     vary: 'Accept' } ]
+27 silly addNameRange number 2 { name: 'polyserve', range: '*', hasData: true }
+28 silly addNameRange versions [ 'polyserve', [ '0.1.0', '0.2.0', '0.2.1', '0.3.0', '0.4.0' ] ]
+29 verbose addNamed [ 'polyserve', '0.4.0' ]
+30 verbose addNamed [ '0.4.0', '0.4.0' ]
+31 silly lockFile 98eece46-polyserve-0-4-0 polyserve@0.4.0
+32 verbose lock polyserve@0.4.0 /Users/aubort/.npm/98eece46-polyserve-0-4-0.lock
+33 silly lockFile 94f26ce5-rg-polyserve-polyserve-0-4-0-tgz https://registry.npmjs.org/polyserve/-/polyserve-0.4.0.tgz
+34 verbose lock https://registry.npmjs.org/polyserve/-/polyserve-0.4.0.tgz /Users/aubort/.npm/94f26ce5-rg-polyserve-polyserve-0-4-0-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/polyserve/-/polyserve-0.4.0.tgz',
+35 verbose addRemoteTarball   '8c0ce70c800f2790e066ed51e7542d5d7cfd6616' ]
+36 info retry fetch attempt 1 at 14:53:24
+37 verbose fetch to= /var/folders/mr/c94jywvx3tvf1z6mcm8b3hqh0000gn/T/npm-655-Yg7p-k1x/registry.npmjs.org/polyserve/-/polyserve-0.4.0.tgz
+38 http GET https://registry.npmjs.org/polyserve/-/polyserve-0.4.0.tgz
+39 http 200 https://registry.npmjs.org/polyserve/-/polyserve-0.4.0.tgz
+40 silly lockFile 94f26ce5-rg-polyserve-polyserve-0-4-0-tgz https://registry.npmjs.org/polyserve/-/polyserve-0.4.0.tgz
+41 silly lockFile 94f26ce5-rg-polyserve-polyserve-0-4-0-tgz https://registry.npmjs.org/polyserve/-/polyserve-0.4.0.tgz
+42 silly lockFile 98eece46-polyserve-0-4-0 polyserve@0.4.0
+43 silly lockFile 98eece46-polyserve-0-4-0 polyserve@0.4.0
+44 silly lockFile 1bfcb230-polyserve polyserve@
+45 silly lockFile 1bfcb230-polyserve polyserve@
+46 silly resolved [ { name: 'polyserve',
+46 silly resolved     version: '0.4.0',
+46 silly resolved     description: 'A simple dev server for bower components',
+46 silly resolved     license:
+46 silly resolved      { type: 'BSD-3-Clause',
+46 silly resolved        url: 'http://polymer.github.io/LICENSE.txt' },
+46 silly resolved     main: 'main.js',
+46 silly resolved     bin: { polyserve: 'bin/polyserve' },
+46 silly resolved     scripts: { start: './bin/polyserve' },
+46 silly resolved     dependencies:
+46 silly resolved      { express: '^4.8.5',
+46 silly resolved        minimist: '^1.1.1',
+46 silly resolved        resolve: '^1.0.0',
+46 silly resolved        send: '^0.10.1' },
+46 silly resolved     gitHead: '46cd85619c76b2fb58b1bf6937470ceafdb947d6',
+46 silly resolved     _id: 'polyserve@0.4.0',
+46 silly resolved     _shasum: '8c0ce70c800f2790e066ed51e7542d5d7cfd6616',
+46 silly resolved     _from: 'polyserve@',
+46 silly resolved     _npmVersion: '2.7.1',
+46 silly resolved     _nodeVersion: '0.10.24',
+46 silly resolved     _npmUser: { name: 'justinfagnani', email: 'justin@fagnani.com' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: '8c0ce70c800f2790e066ed51e7542d5d7cfd6616',
+46 silly resolved        tarball: 'http://registry.npmjs.org/polyserve/-/polyserve-0.4.0.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/polyserve/-/polyserve-0.4.0.tgz' } ]
+47 info install polyserve@0.4.0 into /usr/local/lib
+48 info installOne polyserve@0.4.0
+49 verbose lib/node_modules/polyserve unbuild
+50 verbose tar unpack /Users/aubort/.npm/polyserve/0.4.0/package.tgz
+51 silly lockFile 96eeba18-local-lib-node-modules-polyserve tar:///usr/local/lib/node_modules/polyserve
+52 verbose lock tar:///usr/local/lib/node_modules/polyserve /Users/aubort/.npm/96eeba18-local-lib-node-modules-polyserve.lock
+53 silly lockFile 1bc10245--npm-polyserve-0-4-0-package-tgz tar:///Users/aubort/.npm/polyserve/0.4.0/package.tgz
+54 verbose lock tar:///Users/aubort/.npm/polyserve/0.4.0/package.tgz /Users/aubort/.npm/1bc10245--npm-polyserve-0-4-0-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/polyserve'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/polyserve']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/polyserve',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/polyserve',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:108:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 13.4.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "polyserve"
+60 error cwd /Users/aubort/workspace/polymer/development/google-map-elevation
+61 error node -v v0.10.35
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/polyserve
+64 error fstream_path /usr/local/lib/node_modules/polyserve
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/polyserve'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:108:15)
+71 verbose exit [ 3, true ]
